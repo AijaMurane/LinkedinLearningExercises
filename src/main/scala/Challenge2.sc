@@ -22,8 +22,9 @@ def payroll(typeOfEmployee: String, hoursWorked: Int): Unit = {
     println("The employee is a salaried employee.")
 }
 
-payroll("hourly", 35)
-payroll("hourly", 55)
+payroll("hourly", 20)
 payroll("hourly", 40)
+payroll("hourly", 50)
 payroll("salaried", 35)
 payroll("salaried", 55)
+payroll("salaried", 0)
